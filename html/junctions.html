@@ -38,11 +38,11 @@
           <td>This is used to check if 2 values aren't equal</td>
         </tr>
         <tr>
-          <td>"<"</td>
+          <td>"&lt;"</td>
           <td>This is used to check if the value to the left of it is smaller than the value to the right</td>
         </tr>
         <tr>
-          <td>"<="</td>
+          <td>"&lt;="</td>
           <td>This is used to check if the value on the left is smaller or equal to the value on the right</td>
         </tr>
         <tr>
@@ -52,6 +52,14 @@
         <tr>
           <td>">="</td>
           <td>This is used to check if the value on the left is bigger or equal to the value on the right</td>
+        </tr>
+        <tr>
+          <td>"&amp;&amp;"</td>
+          <td>This is used to check if two logical operators are true.</td>
+        </tr>
+        <tr>
+          <td>"||"</td>
+          <td>This is used to check if one of two logical operators is true</td>
         </tr>
       </table>
       <p>You can also use !([Expression]) to check if an entire expression is the opposite of
@@ -98,7 +106,7 @@ namespace Introduction
                 {
                         int n1 = 4;
                         int n2 = 3;
-                        if(n1 < n2)
+                        if(n1 &lt; n2)
                         {
                             Console.WriteLine("{0} is smaller than {1}", n1, n2);
                         }
@@ -119,7 +127,7 @@ namespace Introduction
                 {
                         int n1 = 4;
                         int n2 = 3;
-                        if(n1 < n2)
+                        if(n1 &lt; n2)
                         {
                             Console.WriteLine("{0} is smaller than {1}", n1, n2);
                         }
@@ -145,7 +153,7 @@ namespace Introduction
                 {
                         int n1 = 5;
                         int n2 = 5;
-                        if(n1 < n2)
+                        if(n1 &lt; n2)
                         {
                             Console.WriteLine("{0} is smaller than {1}", n1, n2);
                         }
