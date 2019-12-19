@@ -54,7 +54,7 @@ namespace Introduction
     }
 }</pre>
     <br>
-    <h3>Convert a string to a number</h3>
+    <h4>Convert a string to a number</h4>
     <p>If you want to convert a string to a number, you use the command "<strong>System.Convert.ToInt32([string]);</strong>"</p>
 <pre class="border">
 namespace Introduction
@@ -97,10 +97,11 @@ namespace Introduction
           <td>System.Convert.ToSingle();</td>
           <td>float</td>
         </tr>
-
       </table>
-      <br>
-      <h4>A shortcut</h4>
+      <p class="important">Warning: You should be sure that the string only consists numbers before you
+        convert it, otherwise you will get an ERROR-message.</p>
+        <br>
+      <h5>A shortcut</h5>
 <pre class="border">
 namespace Introduction
 {
@@ -116,7 +117,8 @@ namespace Introduction
     }
 }</pre>
       <p>This shortcut is not adviceable, as it can be hard to read.</p>
-      <h3>Simplification</h3>
+      <br>
+      <h4>Simplification</h4>
       <p>Since writing "<strong class="command">System.Console....</strong>" is a lot of work and programmers are lazy folk,
         C# came up with a solution:</p>
 <pre class="border">
@@ -135,7 +137,7 @@ namespace Introduction
             }
     }
 }</pre>
-<p>With this the compiler automatically adds "System." to every system command used.</p>
+<p>With this, the compiler automatically adds "System." to every system command used.</p>
     </section>
   </body>
 </html>
