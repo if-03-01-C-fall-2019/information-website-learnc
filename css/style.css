@@ -1,5 +1,5 @@
 body, html{
-  background-image: url("../images/wallpaper2.jpg");
+  background-image: url("../images/wallpaper.jpg");
   height: 100%;
   background-attachment: fixed;
 }
@@ -9,8 +9,7 @@ body {
 .title {
     text-align: center;
     font-size: 40pt;
-  }
-
+}
 body h1 {
   font-family: sans-serif;
   color:green;
