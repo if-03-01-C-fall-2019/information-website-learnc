@@ -1,8 +1,8 @@
 body, html{
-  /* background-image: url("../images/wallpaper.jpg"); */
-  background-image: radial-gradient(circle at 50% 0, #2e2e2d, black);
+  background-image: url("../images/wallpaper.jpg");
   height: 100%;
   background-attachment: fixed;
+  padding: 20px;
 }
 body {
   padding-top: 45pt;
@@ -17,31 +17,13 @@ body h1 {
   text-align: center;
   font-size: 80pt;
 }
-body h2 {
+body h2, h3, h4, h5{
   color: white;
   text-align: left;
   font-family: sans-serif;
 }
 
-body h3 {
-  color: white;
-  text-align: left;
-  font-family: sans-serif;
-}
-
-body h4 {
-  color: white;
-  text-align: left;
-  font-family: sans-serif;
-}
-
-body h5 {
-  color: white;
-  text-align: left;
-  font-family: sans-serif;
-}
-
-body section {
+body section:not(hr) {
   font-family: monospace;
   color: #a0a0a0;
   font-size: 15pt;
@@ -51,6 +33,9 @@ body section {
   border-style: solid;
   border-width: 1px;
   width: 70%;
+}
+.border:hover{
+  width: 100%;
 }
 strong.command {
   color: green;
