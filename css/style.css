@@ -106,3 +106,7 @@ ul {
 .important:hover {
   color: darkred;
 }
+
+.border + p {
+  text-align: right;
+}
