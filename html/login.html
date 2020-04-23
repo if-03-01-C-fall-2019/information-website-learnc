@@ -16,14 +16,23 @@
         <li><a href="junctions.html">Junctions</a></li>
         <li><a href="arrays.html">Arrays</a></li>
         <li><a href="methods.html">Methods</a></li>
-        <li><a class="active" href="structs.html">Structs</a></li>
+        <li><a href="structs.html">Structs</a></li>
         <li><a href="forum.html">Forum</a></li>
-        <li><a href="login.html">Login</a></li>
+        <li><a class="active"  href="login.html">Login</a></li>
       </ul>
     </nav>
-    <section>
-      <h2 class="title">8. Structs</h2>
-      <hr>
-    </section>
+    <form id="auth-form" class="form-horizontal">
+        <input type="text" id="username" name="username" placeholder="Username">
+        <input type="password" id="password" name="password" placeholder="Password">
+      </form>
+      <script>
+        const authFormEl = document.getElementById("auth-form");
+        authFormEl.addEventListener("submit", async e => {
+            e.preventDefault();
+            
+            const tvClient = await TrueVaultClient.login( TV_ACCOUNT_ID, this.username.value, this.password.value);
+            console.log('Access token:', tvClient.apiKeyOrAccessToken);
+        });
+      </script>
   </body>
 </html>
