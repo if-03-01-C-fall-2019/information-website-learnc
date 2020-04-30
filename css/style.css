@@ -107,3 +107,16 @@ ul {
 .border + p {
   text-align: right;
 }
+label {
+  background-color: white;
+}
+
+
+form{
+  width: 250px;
+  height: auto;
+  padding: 20px 30px;
+  background-color: White;
+  border-radius:  10px;
+  box-shadow: 0 0 10px 0 #000;
+}

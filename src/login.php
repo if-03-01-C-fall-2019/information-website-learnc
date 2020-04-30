@@ -21,11 +21,11 @@
         <li><a class="active"  href="login.html">Login</a></li>
       </ul>
     </nav>
-    <form action="../src/login.php" method="POST">
+    <form action="register.php" method="POST">
           <input id="uid" name="login" placeholder="username">
           <input id="pwd" name="password" type="password" placeholder="password">
           <button type="submit" name="login-submit">Login</button>
     </form>
-    <a href="register.html">Dont Have an Account yet? Register now!</a>
+    <a href="register.php">Dont Have an Account yet? Register now!</a>
   </body>
 </html> 
