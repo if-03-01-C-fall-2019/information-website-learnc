@@ -8,17 +8,17 @@
   <body>
     <nav>
       <ul id="navigation">
-        <li><a href="../index.html">LearnC#</a></li>
-        <li><a href="structure.html">Basic Structure</a></li>
-        <li><a href="output.html">Output</a></li>
-        <li><a href="variables.html">Variable types</a></li>
-        <li><a class="active" href="input.html">Input from user</a></li>
-        <li><a href="junctions.html">Junctions</a></li>
-        <li><a href="arrays.html">Arrays</a></li>
-        <li><a href="methods.html">Methods</a></li>
-        <li><a href="structs.html">Structs</a></li>
-        <li><a href="forum.html">Forum</a></li>
-        <li><a href="login.html">Login</a></li>
+      <li><a href="../index.php">LearnC#</a></li>
+        <li><a href="structure.php">Basic Structure</a></li>
+        <li><a href="output.php">Output</a></li>
+        <li><a href="variables.php">Variable types</a></li>
+        <li><a class="active" href="input.php">Input from user</a></li>
+        <li><a href="junctions.php">Junctions</a></li>
+        <li><a href="arrays.php">Arrays</a></li>
+        <li><a href="methods.php">Methods</a></li>
+        <li><a href="structs.php">Structs</a></li>
+        <li><a href="forum.php">Forum</a></li>
+        <li><a href="login.php">Login</a></li>
       </ul>
     </nav>
     <section>

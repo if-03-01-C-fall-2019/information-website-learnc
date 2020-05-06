@@ -1,24 +1,26 @@
-<!DOCTYPE html>
+<?php
+session_start();
+?>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>LearnC#</title>
+    <title>LearnC# - Different Variable types</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <nav>
       <ul id="navigation">
-        <li><a class="active" href="index.html">LearnC#</a></li>
-        <li><a href="html/structure.html">Basic Structure</a></li>
-        <li><a href="html/output.html">Output</a></li>
-        <li><a href="html/variables.html">Variable types</a></li>
-        <li><a href="html/input.html">Input from user</a></li>
-        <li><a href="html/junctions.html">Junctions</a></li>
-        <li><a href="html/arrays.html">Arrays</a></li>
-        <li><a href="html/methods.html">Methods</a></li>
-        <li><a href="html/structs.html">Structs</a></li>
-        <li><a href="html/forum.html">Forum</a></li>
-        <li><a href="src/login.php">Login</a></li>
+        <li><a class="active" href="index.php">LearnC#</a></li>
+        <li><a href="php/structure.php">Basic Structure</a></li>
+        <li><a href="php/output.php">Output</a></li>
+        <li><a href="php/variables.php">Variable types</a></li>
+        <li><a href="php/input.php">Input from user</a></li>
+        <li><a href="php/junctions.php">Junctions</a></li>
+        <li><a href="php/arrays.php">Arrays</a></li>
+        <li><a href="php/methods.php">Methods</a></li>
+        <li><a href="php/structs.php">Structs</a></li>
+        <li><a href="php/forum.php">Forum</a></li>
+        <li><a href="php/login.php">Login</a></li>
       </ul>
     </nav>
     <h1>Welcome to LearnC#</h1>
